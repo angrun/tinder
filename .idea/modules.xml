@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_main.iml" group="backend" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_test.iml" group="backend" />
       <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-vue.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-vue_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-vue_main.iml" group="spring-boot-vue" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-vue_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-vue_test.iml" group="spring-boot-vue" />
       <module fileurl="file://$PROJECT_DIR$/tinder.iml" filepath="$PROJECT_DIR$/tinder.iml" />
     </modules>
   </component>

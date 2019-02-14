@@ -12,6 +12,8 @@
       <module name="backend" target="1.8" />
       <module name="backend_main" target="1.8" />
       <module name="backend_test" target="1.8" />
+      <module name="spring-boot-vue_main" target="1.8" />
+      <module name="spring-boot-vue_test" target="1.8" />
       <module name="tinder_main" target="1.8" />
       <module name="tinder_test" target="1.8" />
     </bytecodeTargetLevel>
