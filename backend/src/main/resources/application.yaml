@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/testdb'
+    username: 'anna'
+    password: 'test'
+#    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: 'org.hibernate.dialect.PostgreSQLDialect'
+    generate-ddl: true
+    properties:
+      hibernate.jdbc.lob.non_contextual_creation: true
+  liquibase:
+    change-log: classpath:db/changelog/changelog-master.xml
