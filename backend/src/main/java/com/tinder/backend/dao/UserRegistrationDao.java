@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
-import java.util.List;
+
 
 @Repository
 public class UserRegistrationDao {
@@ -19,10 +19,5 @@ public class UserRegistrationDao {
         em.persist(user);
         return user;
     }
-
-    public List<User> getAllUsers() {
-        return em.createQuery("select u from User u", User.class).getResultList();
-    }
-
 
 }

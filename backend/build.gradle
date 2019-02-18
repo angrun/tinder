@@ -38,4 +38,6 @@ dependencies {
 //    testImplementation 'org.springframework.security:spring-security-test'
     compileOnly(group: 'org.projectlombok', name: 'lombok', version: '1.18.4')
 
+    compile 'io.springfox:springfox-swagger2:2.9.2'
+
 }
