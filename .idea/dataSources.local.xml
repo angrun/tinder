@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="testdb@localhost" uuid="57d02bbb-b86b-4654-ad77-751dbe6b13a0">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
       <introspection-schemas>@:@</introspection-schemas>
     </data-source>
   </component>

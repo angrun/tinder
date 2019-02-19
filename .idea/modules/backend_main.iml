@@ -25,8 +25,8 @@
     <orderEntry type="library" name="Gradle: org.liquibase:liquibase-core:3.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger-common:2.9.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.postgresql:postgresql:42.2.5" level="project" />
     <orderEntry type="library" name="Gradle: io.swagger:swagger-models:1.5.20" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.postgresql:postgresql:42.2.5" level="project" />
     <orderEntry type="library" name="Gradle: io.swagger:swagger-annotations:1.5.20" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-schema:2.9.2" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-spring-web:2.9.2" level="project" />

@@ -16,6 +16,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../backend/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../backend/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../backend/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
