@@ -1,0 +1,174 @@
+* {
+  margin: 0 !important;
+}
+
+/* Style the top navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: #954D60;
+}
+
+.navContent {
+  width: 60%;
+  padding-left: 20%;
+}
+
+/* Style the topnav links */
+.link {
+  left: 100px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.link:hover {
+  background-color: #EAE3EA;
+  color: black;
+}
+
+.icon{
+  width: 16px;
+  height: 16px;
+  float: right;
+  padding-top: 15px;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  height: 100%;
+  color: black;
+  background: #F4F4F4;
+}
+.info {
+  flex: 50%;
+}
+
+.imageContainer {
+  flex: 50%;
+  text-align: center;
+}
+
+.imageBorder{
+  background: #954D60;
+  position: absolute;
+  right: 50%;
+  top: 15%;
+  float: right;
+  width: 250px;
+  height: 250px;
+}
+
+.infoBox {
+  position: absolute;
+  text-align:left;
+  left: 50%;
+  top: 15%;
+  float: left;
+  width: 250px;
+  height: 250px;
+  padding-left: 15px;
+}
+
+.boldText {
+  font-family: Exo;
+  font-size: 20px;
+  font-weight: bold;
+  color: #CDC0C0;
+}
+
+p {
+  font-family: Exo;
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.heart {
+  width: 10px;
+  float: left;
+  padding-top: 3%;
+  padding-right: 1%;
+}
+
+.likes {
+  font-family: Exo;
+  font-size: 15px;
+  color: #CDC0C0;
+  float: left;
+}
+
+.photo{
+  position: absolute;
+  top: 15%;
+  padding-top: 15px;
+  right: 50%;
+  padding-right: 15px;
+  width: 220px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background-color: #954D60;
+  color: white;
+  text-align: center;
+}
+
+.footerText {
+  padding-top: 2%;
+  font-famil: Exo;
+  color: white;
+  word-spacing: 30px;
+}
+
+.like, .dislike{
+  width: 5%;
+  position: absolute;
+  top: 45%;
+}
+
+.dislike {
+  left: 36%;
+}
+
+.like{
+  left: 30%;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  left: 31%;
+  background: #F4F4F4;
+  border-radius: 5px;
+  border: 2px solid #954D60;
+}
+
+.photoButton {
+  position: absolute;
+  top: 45%;
+  left: 26%;
+}
+
+.buttonText {
+  color: #954D60;
+  font-family: Exo;
+  font-size: 20px;
+  font-weight: bold;
+}
