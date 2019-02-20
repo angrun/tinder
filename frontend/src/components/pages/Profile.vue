@@ -21,34 +21,47 @@
             <button class="photoButton" v-on:click = "changePhoto">
               <p class="buttonText">Change photo</p>
             </button>
+            <button class="saveButton" v-on:click="saveInfo">
+              <p class="buttonText">Save changes</p>
+            </button>
+            <img class="arrowImg" v-on:click="profileHTML" src="../images/arrow.png"/>
           </div>
           <div v-else>
-            <button v-on:click = "editHTML">
+            <button class="buttonEdit" v-on:click = "editHTML">
               <p class="buttonText">Edit</p>
             </button>
           </div>
         </div>
         <div class="info">
           <div class="infoBox" v-if="editMode">
-            <p class="boldText">Eva</p>
-            <p>Last name</p><input/>
-            <p>Age</p><input/>
-            <p>Country</p><input/>
-            <p>City</p><input/>
+            <p>First name</p>
+            <input type="text" placeholder="Placeholder text" :value="user.name" ref="newName"/>
+            <p>Last name</p>
+            <input type="text" placeholder="Placeholder text" :value="user.surname" ref="newSurname"/>
+            <p>Gender</p>
+            <input type="text" placeholder="Placeholder text" :value="user.gender" ref="newGender"/>
+            <p>Country</p>
+            <input type="text" placeholder="Placeholder text" :value="user.country" ref="newCoutry"/>
+            <p>City</p>
+            <input type="text" placeholder="Placeholder text" :value="user.city" ref="newCity"/>
+            <p>Hobby</p>
+            <input type="text" placeholder="Placeholder text" value="hobby here"/>
+            <p class="boldText">Bio</p>
+            <input/>
           </div>
           <div class="infoBox" v-else>
             <p class="boldText">{{user.name}}</p>
             <p>Full name: {{user.name}} {{user.surname}}</p>
             <p>Age: 23</p>
-            <p>Sex: female</p>
-            <p>City: Tallinn</p>
-            <p>Work: doctor</p>
-            <p>Hobby: photography</p>
-            <p class="boldText">Status</p>
+            <p>Gender: {{user.gender}}</p>
+            <p>Country: {{user.country}}</p>
+            <p>City: {{user.city}}</p>
+            <p>Hobby: #photography</p>
+            <p class="boldText">Bio</p>
             <p>I love animals</p>
             <p class="boldText">Likes</p>
             <img src="../images/heart.png" class="heart"/>
-            <p class="likes">316</p>
+            <p class="likes">{{user.likes}}</p>
           </div>
         </div>
       </div>
@@ -84,13 +97,23 @@
       editHTML: function () {
         this.editMode = true
       },
+      profileHTML: function () {
+        this.editMode = false
+      },
+      saveInfo: function () {
+        this.editMode = false
+        this.user.name = this.$refs.newName.value
+        this.user.surname = this.$refs.newSurname.value
+        this.user.country = this.$refs.newCountry.value
+        this.user.city = this.$refs.newCity.value
+        AXIOS.put('/users/' + this.user)
+      },
       getUser: function () {
         AXIOS.get('/users/' + this.id)
           .then(response => {
-          this.user = response.data
-          console.log(response.data)
-
-      })
+            this.user = response.data
+            console.log(response.data)
+          })
       }
     }
   }
