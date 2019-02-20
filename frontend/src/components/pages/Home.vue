@@ -7,18 +7,18 @@
           <router-link to="/chat" class="link">MESSAGES</router-link>
           <router-link to="/profile" class="link">PROFILE</router-link>
           <router-link to="/profile" class="link">EXPLORE</router-link>
-          <img src="../../../node_modules/icons/gear.png" class="icon"/>
+          <img src="../images/gear.png" class="icon"/>
         </div>
       </nav>
     </div>
     <div class="container">
-      <img src="~/icons/bg.png" style="width:100%;">
+      <img src="../images/bg.png" style="width:100%;">
       <div class="centered">
         <div class="imageContainer">
           <div class="imageBorder"></div>
-          <img src="~icons/eva.png" class="photo"/>
-          <img src="~icons/like.png" class="like"/>
-          <img src="~icons/dislike.png" class="dislike"/>
+          <img src="../images/eva.png" class="photo"/>
+          <img src="../images/like.png" class="like"/>
+          <img src="../images/dislike.png" class="dislike"/>
         </div>
         <div class="info">
           <div class="infoBox">
@@ -31,7 +31,7 @@
             <p>- Male</p>
             <p>- From Tallinn</p>
             <p>- under 30 y.o.</p>
-            <img src="~icons/heart.png" class="heart"/>
+            <img src="../images/heart.png" class="heart"/>
             <p class="likes">316</p>
           </div>
         </div>

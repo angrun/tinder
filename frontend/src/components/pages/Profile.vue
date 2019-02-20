@@ -7,16 +7,16 @@
           <router-link to="/chat" class="link">MESSAGES</router-link>
           <router-link to="/profile" class="link">PROFILE</router-link>
           <router-link to="/profile" class="link">EXPLORE</router-link>
-          <img src="../../../node_modules/icons/gear.png" class="icon"/>
+          <img src="../images/gear.png" class="icon"/>
         </div>
       </nav>
     </div>
     <div class="container">
-      <img src="~/icons/bg.png" style="width:100%;">
+      <img src="../images/bg.png" style="width:100%;">
       <div class="centered">
         <div class="imageContainer">
           <div class="imageBorder"></div>
-          <img src="~icons/eva.png" class="photo"/>
+          <img src="../images/eva.png" class="photo"/>
           <div v-if="editMode">
             <button class="photoButton" v-on:click = "changePhoto">
               <p class="buttonText">Change photo</p>
@@ -37,8 +37,8 @@
             <p>City</p><input/>
           </div>
           <div class="infoBox" v-else>
-            <p class="boldText">Eva</p>
-            <p>Full name: Eva Miller</p>
+            <p class="boldText">{{user.name}}</p>
+            <p>Full name: {{user.name}} {{user.surname}}</p>
             <p>Age: 23</p>
             <p>Sex: female</p>
             <p>City: Tallinn</p>
@@ -47,7 +47,7 @@
             <p class="boldText">Status</p>
             <p>I love animals</p>
             <p class="boldText">Likes</p>
-            <img src="~icons/heart.png" class="heart"/>
+            <img src="../images/heart.png" class="heart"/>
             <p class="likes">316</p>
           </div>
         </div>
@@ -85,10 +85,11 @@
         this.editMode = true
       },
       getUser: function () {
-        AXIOS.get(`/user/` + this.id)
+        AXIOS.get('/users/' + this.id)
           .then(response => {
           this.user = response.data
-        console.log(response.data)
+          console.log(response.data)
+
       })
       }
     }
