@@ -151,10 +151,10 @@ p {
   left: 30%;
 }
 
-button {
+.buttonEdit {
   position: absolute;
-  top: 50%;
-  left: 31%;
+  top: 3%;
+  left: 90%;
   background: #F4F4F4;
   border-radius: 5px;
   border: 2px solid #954D60;
@@ -164,6 +164,9 @@ button {
   position: absolute;
   top: 45%;
   left: 26%;
+  background: #F4F4F4;
+  border-radius: 5px;
+  border: 2px solid #954D60;
 }
 
 .buttonText {
@@ -171,4 +174,21 @@ button {
   font-family: Exo;
   font-size: 20px;
   font-weight: bold;
+}
+
+.saveButton{
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  background: #F4F4F4;
+  border-radius: 5px;
+  border: 2px solid #954D60;
+}
+
+.arrowImg {
+  position: absolute;
+  top: 3%;
+  left: 90%;
+  width: 5%;
+  padding: 0;
 }
