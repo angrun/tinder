@@ -31,6 +31,13 @@ public class UsersDao {
     }
 
     @Transactional
+    public User update(User user) {
+
+        em.merge(user);
+        return user;
+    }
+
+    @Transactional
     public void delete(Long userId) {
 
         User user = em.find(User.class, userId);
