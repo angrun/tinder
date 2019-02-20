@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
+    <list default="true" id="62c84f65-638e-4d42-b6e2-7a2a893c6ed1" name="Default Changelist" comment="Frontend+backend+images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/Profile.vue" afterPath="$PROJECT_DIR$/frontend/src/components/pages/Profile.vue" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/style/MainStyle.css" afterPath="$PROJECT_DIR$/frontend/src/components/style/MainStyle.css" />
+
     <list default="true" id="62c84f65-638e-4d42-b6e2-7a2a893c6ed1" name="Default Changelist" comment="Frontend+backend&#10;Fixed">
       <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/models/Hobby.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/utils/AgeCalculator.java" afterDir="false" />
@@ -14,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/resources/db/changelog/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/db/changelog/schema.sql" afterDir="false" />
+
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/backend/.gradle/" />
@@ -213,12 +220,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/main/resources/db/changelog/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
+
+            <state relative-caret-position="457">
+              <caret line="114" column="36" lean-forward="true" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
+              <folding />
+
             <state relative-caret-position="135">
               <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+
             </state>
           </provider>
         </entry>
       </file>
+
+      <file leaf-file-name="MainStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/style/MainStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+              <folding />
+
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/BackendApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -311,6 +332,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+
             </state>
           </provider>
         </entry>
@@ -764,11 +786,11 @@
         <option value="$PROJECT_DIR$/frontend/src/router/index.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/pages/DatingApp.vue" />
         <option value="$PROJECT_DIR$/frontend/src/components/pages/Chat.vue" />
-        <option value="$PROJECT_DIR$/frontend/src/components/style/MainStyle.css" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/src/components/pages/http-config.js" />
         <option value="$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/BackendApplication.java" />
         <option value="$PROJECT_DIR$/frontend/src/components/pages/Home.vue" />
+        <option value="$PROJECT_DIR$/frontend/src/components/style/MainStyle.css" />
         <option value="$PROJECT_DIR$/frontend/src/components/pages/Profile.vue" />
         <option value="$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/models/Hobby.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/utils/Utils.java" />
@@ -827,7 +849,11 @@
             <path>
               <item name="tinder" type="b2602c69:ProjectViewProjectNode" />
               <item name="tinder" type="462c0819:PsiDirectoryNode" />
+
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+
               <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -835,15 +861,24 @@
               <item name="tinder" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+
             </path>
             <path>
               <item name="tinder" type="b2602c69:ProjectViewProjectNode" />
               <item name="tinder" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+
             </path>
             <path>
               <item name="tinder" type="b2602c69:ProjectViewProjectNode" />
@@ -917,6 +952,10 @@
               <item name="tinder" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="changelog" type="462c0819:PsiDirectoryNode" />
@@ -925,6 +964,7 @@
               <item name="tinder" type="b2602c69:ProjectViewProjectNode" />
               <item name="tinder" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+
             </path>
           </expand>
           <select />
@@ -1091,8 +1131,12 @@
       <workItem from="1550559493006" duration="1223000" />
       <workItem from="1550561689716" duration="1521000" />
       <workItem from="1550589149185" duration="2739000" />
+
+      <workItem from="1550604668557" duration="8318000" />
+
       <workItem from="1550604668557" duration="3186000" />
       <workItem from="1550658599796" duration="5114000" />
+
     </task>
     <task id="LOCAL-00001" summary="Frontend+backend&#10;Fixed">
       <created>1550591141599</created>
@@ -1101,11 +1145,22 @@
       <option name="project" value="LOCAL" />
       <updated>1550591141599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Frontend+backend+images">
+      <created>1550658417575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550658417575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
+    <option name="totallyTimeSpent" value="25425000" />
+
     <option name="totallyTimeSpent" value="25407000" />
+
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1119,6 +1174,43 @@
   <component name="ToolWindowManager">
     <frame x="-61" y="56" width="1680" height="978" extended-state="0" />
     <layout>
+
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37774903" sideWeight="0.5031486" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40262842" sideWeight="0.4974811" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37873358" sideWeight="0.49685138" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24756756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21123321" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24380952" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.4974811" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25030527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -1154,6 +1246,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.21123321" />
+
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1164,7 +1257,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Frontend+backend&#10;Fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend+backend&#10;Fixed" />
+    <MESSAGE value="Frontend+backend+images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend+backend+images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57d02bbb-b86b-4654-ad77-751dbe6b13a0/console.sql" />
@@ -1207,8 +1301,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
+
+        <state relative-caret-position="2400">
+          <caret line="96" column="3" lean-forward="false" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+          <folding />
+
         <state relative-caret-position="50">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+
         </state>
       </provider>
     </entry>
@@ -1250,8 +1350,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/pages/Chat.vue">
       <provider selected="true" editor-type-id="text-editor">
+
+        <state relative-caret-position="2400">
+          <caret line="96" column="3" lean-forward="false" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+          <folding />
+
         <state relative-caret-position="523">
           <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+
         </state>
       </provider>
     </entry>
@@ -1306,7 +1412,22 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="96" column="3" lean-forward="false" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57d02bbb-b86b-4654-ad77-751dbe6b13a0/console.sql" />
+    <entry file="das://57d02bbb-b86b-4654-ad77-751dbe6b13a0/database/testdb/schema/public/sequence/hibernate_sequence" />
+    <entry file="das://57d02bbb-b86b-4654-ad77-751dbe6b13a0/database/testdb/schema/public/table/user" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/dao/UserRegistrationDao.java">
+
     <entry file="file://$PROJECT_DIR$/backend/src/main/resources/application.yaml">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -1386,6 +1507,13 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+          <folding />
+
     <entry file="das://57d02bbb-b86b-4654-ad77-751dbe6b13a0/database/testdb/schema/public/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1397,6 +1525,7 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+
         </state>
       </provider>
     </entry>
@@ -1450,7 +1579,24 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/images/like.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/pages/Chat.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/BackendApplication.java">
+
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/utils/Utils.java">
+
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
@@ -1460,15 +1606,28 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/style/MainStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.14/77a3ba9b672a82b6796d895e9640f90e73ac6389/tomcat-embed-core-9.0.14-sources.jar!/org/apache/catalina/core/StandardEngineValve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="73" selection-start-line="73" selection-end-line="73" />
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/tinder/backend/controllers/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
+
+        <state relative-caret-position="457">
+          <caret line="114" column="36" lean-forward="true" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
+          <folding />
+
         <state relative-caret-position="62">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
@@ -1481,6 +1640,7 @@
             <element signature="e#1918#1919#0" expanded="true" />
             <element signature="e#1957#1958#0" expanded="true" />
           </folding>
+
         </state>
       </provider>
     </entry>
