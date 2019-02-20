@@ -6,11 +6,18 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.persistence.CollectionTable;
 import javax.persistence.Column;
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.Table;
+import java.security.Timestamp;
+import java.util.Date;
+import java.util.List;
 
 
 @Entity
@@ -32,9 +39,6 @@ public class User {
     String surname;
 
     @Column
-    String username;
-
-    @Column
     String password;
 
     @Column
@@ -54,6 +58,9 @@ public class User {
 
     @Column
     Integer likes;
+
+//    @Column
+//    String hobby [];
 
 
 }
