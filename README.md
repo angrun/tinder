@@ -29,22 +29,20 @@ Tools used for better development proccess
 Authors
 ---------
 
-- **Marina Ivanova** * *IAIB41* *
+- **Marina Ivanova** *IAIB41*
   - Frontend
   - Design
   
-- **Anna Grund**  * *IAIB41* *
+- **Anna Grund** *IAIB41*
   - Backend
   - Teamleading
   - Documentation
 
-- **Katarina Piven** * *IAIB42* *
+- **Katarina Piven** *IAIB42* 
   - Full-stack
   - Design
   - Security issues
 
-
-IAIB41/42
 
 License
 ---------
