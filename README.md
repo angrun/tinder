@@ -37,6 +37,7 @@ Authors
   - Backend
   - Teamleading
   - Documentation
+  - Deployment
 
 - **Katarina Piven** *IAIB42* 
   - Full-stack
