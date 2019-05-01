@@ -2,7 +2,7 @@
 
 
 DatingApp;
----------
+=========
 
 DatingApp; is an application which main focus is to connect lonely souls offering communication platform. Users are able to take advantages in searching for new users based on their region, gender preferences and hobbies. Application is also a source persomal profile page, statistics overview and chats opportunities.
 
