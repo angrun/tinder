@@ -57,6 +57,8 @@ Diagrams
   
 <img width="711" alt="Screenshot 2019-05-07 at 11 26 21" src="https://user-images.githubusercontent.com/36757639/57285151-40ceca00-70bb-11e9-8182-11088d103f6a.png">
 
+*Diagram 2: Basic application infrastructure* 
+![Untitled Diagram-2](https://user-images.githubusercontent.com/36757639/57328458-2d9f1700-711a-11e9-9aff-6736b201415c.png)
 
 License
 ---------
