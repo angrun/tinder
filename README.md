@@ -49,9 +49,13 @@ Authors
   
  
  
+
+Diagrams
+---------
+
+*Diagram 1: Basic application flow diagram* 
   
-  
- 
+<img width="711" alt="Screenshot 2019-05-07 at 11 26 21" src="https://user-images.githubusercontent.com/36757639/57285151-40ceca00-70bb-11e9-8182-11088d103f6a.png">
 
 
 License
