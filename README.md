@@ -32,17 +32,26 @@ Authors
 - **Marina Ivanova** *IAIB41*
   - Frontend
   - Design
+   - Automated Testing
   
 - **Anna Grund** *IAIB41*
   - Backend
   - Teamleading
   - Documentation
   - Deployment
+  - Manual Testing
 
 - **Katarina Piven** *IAIB42* 
   - Full-stack
   - Design
   - Security issues
+  - Automated Testing
+  
+ 
+ 
+  
+  
+ 
 
 
 License
