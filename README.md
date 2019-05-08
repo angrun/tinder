@@ -63,6 +63,9 @@ Diagrams
 *Diagram 3: Application Daos besic tasks*
 <img width="1087" alt="Screenshot 2019-05-08 at 23 11 41" src="https://user-images.githubusercontent.com/36757639/57405457-26920a80-71e7-11e9-86e6-9c979a927521.png">
 
+*Diagram 4: Main Entities and their relations*
+<img width="986" alt="Screenshot 2019-05-08 at 23 41 42" src="https://user-images.githubusercontent.com/36757639/57407026-e59bf500-71ea-11e9-820f-515c83b7c04b.png">
+
 License
 ---------
 
