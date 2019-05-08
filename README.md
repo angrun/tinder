@@ -60,6 +60,9 @@ Diagrams
 *Diagram 2: Basic application infrastructure* 
 ![Untitled Diagram-2](https://user-images.githubusercontent.com/36757639/57328458-2d9f1700-711a-11e9-9aff-6736b201415c.png)
 
+*Diagram 3: Application Daos besic tasks*
+<img width="1087" alt="Screenshot 2019-05-08 at 23 11 41" src="https://user-images.githubusercontent.com/36757639/57405457-26920a80-71e7-11e9-86e6-9c979a927521.png">
+
 License
 ---------
 
