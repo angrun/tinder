@@ -65,6 +65,6 @@ License
 
 The project was created in the context of ITI0208 course at Tallinn University of Technology.
 
-15.05.2019
+09.05.2019
 
 
