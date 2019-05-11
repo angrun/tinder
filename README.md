@@ -8,6 +8,7 @@ App Source
 
 * Backend: https://github.com/angrun/app-backend
 * Frontend: https://github.com/mariiv2/datingApp-frontend
+* Real link: http://ec2-3-92-136-160.compute-1.amazonaws.com
 
 Built With
 ---------
